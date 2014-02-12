@@ -16,7 +16,7 @@ nav {
   padding:0;
   border:0;
   outline:none;
-  background:$background url(../../images/close-btn.svg) left center no-repeat;
+  background:$background url(images/close-btn.svg) left center no-repeat;
   background-size: 4.87em 4.87em;
   overflow:hidden;
   white-space:nowrap;
@@ -36,7 +36,7 @@ nav {
   padding:0;
   border:0;
   outline:none;
-  background: #fff url("../../images/menu-icon.svg") left center no-repeat;
+  background: #fff url("images/menu-icon.svg") left center no-repeat;
   background-size: 2.875em 2.5em;
   overflow:hidden;
   whitespace:nowrap;
@@ -113,9 +113,20 @@ nav {
     background: rgba(0, 0, 0, 0.1);
     }
   }
+  .current-menu-item a {
+    color:$red;
+    }
   li.is-active a {
   color: #fff;
   }
+}
+
+#nav:after, #nav:before {
+     content: "."; 
+   visibility: hidden; 
+   display: block; 
+   height: 0; 
+   clear: both;
 }
 
 #top {

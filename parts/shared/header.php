@@ -9,19 +9,14 @@
 		<div class="page-wrap">
 			<header id="top" role="banner">
 				<div class="logo">
-					<h1><a class="header-logo" href="<?php echo home_url(); ?>"><?php bloginfo( 'name' ); ?></a></h1>
+					<a class="header-logo" href="<?php echo home_url(); ?>"><h1><?php bloginfo( 'name' ); ?></h1></a>
 				</div>
 				<a class="nav-btn" id="nav-open-btn" href="#nav">Navigation</a>
 			</header>
 			<nav id="nav" role="navigation">
 	            <div class="block">
 	                <h2 class="block-title">Navigation</h2>
-	                <ul>
-	                    <li><a href="index.html">Home</a></li>
-	                    <li><a href="about.html">About</a></li>
-	                    <li><a href="images.html">Images</a></li>
-	                    <li><a href="contact.html">Contact</a></li>
-	                </ul>
+	                <?php wp_nav_menu( array('menu' => 'Nav' )); ?>
 	                <a class="close-btn" id="nav-close-btn" href="#top">Back to Content</a>
 	            </div>
 	        </nav>

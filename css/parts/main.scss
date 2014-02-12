@@ -48,10 +48,16 @@ header {
 .header-logo {
 	text-decoration:none;
 	float:left;
-	h1{
-		text-decoration:none;
+	h1 {
 		color: $black;
 		margin: 0.5em 0 0 0;
+		a {
+		text-decoration:none;
+		color:$black;
+		}
+		a:visited {
+			color:black;
+		}
 	}
 }
 
@@ -102,6 +108,9 @@ header {
 	height: 0; 
 	clear: both;
 }
+.main {
+	width:100%;
+}
 .content {
 	margin:$content-margin;
 	h2 {
@@ -111,6 +120,7 @@ header {
 		overflow:hidden;
 		padding:0 0 20px 0;
 		width:100%;
+		clear:both;
 	}
 	.col {
 		float:left;
