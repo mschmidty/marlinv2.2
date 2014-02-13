@@ -6,7 +6,7 @@
 
 <div id="outer-wrap">
 	<div id="inner-wrap">
-		<div class="page-wrap">
+	<div class="page-wrap">
 			<header id="top" role="banner">
 				<div class="logo">
 					<a class="header-logo" href="<?php echo home_url(); ?>"><h1><?php bloginfo( 'name' ); ?></h1></a>
@@ -19,6 +19,6 @@
 	                <?php wp_nav_menu( array('menu' => 'Nav' )); ?>
 	                <a class="close-btn" id="nav-close-btn" href="#top">Back to Content</a>
 	            </div>
-	        </nav>
+	     	</nav>
 	        <div id="main" role="main" class="main">
 

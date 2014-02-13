@@ -7,6 +7,7 @@ Template Name: About
 <?php Starkers_Utilities::get_template_parts( array( 'parts/shared/html-header', 'parts/shared/header' ) ); ?>
 <div class="content">
 <div class="grid">
+	<h2>About Us</h2>
 	<?php
  
     $custom_query = new WP_Query(array(
