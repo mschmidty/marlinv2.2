@@ -19,12 +19,12 @@ Template Name: Home Page
             <div class="content">
                 <div class="grid">
                     <div class="col col-1-3">
-                        <h3>Local</h3>
-                        <p>Durango Shade Company offers at home consultation for motorized and manual window shades.  Our shades are great for both commercial and residential applications.</p>
+                        <h3>For Your Cause</h3>
+                        <p>We wanna give back to the community that supports us! A portion of our profits got to support local customer recomended cuases.</p>
                     </div>
                     <div class="col col-1-3">
-                        <h3>Insolroll</h3>
-                        <p>We have an array of fabrics, from full black out to semi-translucent privacy shades.  We also offer the famous solar screen fabrics by <a href="http://wwww.insolroll.com">Insolroll</a> that give you protection from the sun but don't block out your view.</p>
+                        <h3>Local</h3>
+                        <p>Durango Shade Company offers at home consultation for motorized and manual window shades.  Our shades are great for both commercial and residential applications.</p>
                     </div>
                     <div class="col col-1-3">
                         <h3>Give us a call!</h3>

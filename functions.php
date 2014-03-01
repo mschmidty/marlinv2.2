@@ -127,4 +127,9 @@
 
 	add_filter( 'use_default_gallery_style', '__return_false' );
 
+	// Thumbnails and Feature images
+
+	add_theme_support( 'post-thumbnails' );
+
+
 
