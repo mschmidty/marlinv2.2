@@ -16,8 +16,8 @@ nav {
   padding:0;
   border:0;
   outline:none;
-  background:$background url(images/close-btn.svg) left center no-repeat;
-  background-size: 4.87em 4.87em;
+  background:$background url(images/close-btn.png) left center no-repeat;
+  background-size: 3.2em 2.8em;
   overflow:hidden;
   white-space:nowrap;
   text-indent: 100%;
@@ -31,13 +31,13 @@ nav {
 }
 .nav-btn {
   display:block;
-  width: 2.625em;
-  height:2.25em;
+  width: 2.25em;
+  height:2.5em;
   padding:0;
   border:0;
   outline:none;
-  background: #fff url("images/menu-icon.svg") left center no-repeat;
-  background-size: 2.875em 2.5em;
+  background: #fff url("images/menu-icon.png") left center no-repeat;
+  background-size: 2.25em 2.5em;
   overflow:hidden;
   whitespace:nowrap;
   text-indent:-999px;
@@ -146,7 +146,7 @@ nav {
 #top .nav-btn {
   position:absolute;
   top:41%; /*----Changed From top:1.5em------*/
-  left:1.5em;
+  left:2em;
 }
 
 #main {
