@@ -9,7 +9,7 @@
 	<div class="page-wrap">
 			<header id="top" role="banner">
 				<div class="logo">
-					<a class="header-logo" href="<?php echo home_url(); ?>"><h1><?php bloginfo( 'name' ); ?></h1></a>
+					<a class="header-logo" href="<?php echo home_url(); ?>"><h1>Durango Shade Co.</h1></a>
 				</div>
 				<a class="nav-btn" id="nav-open-btn" href="#nav">Navigation</a>
 			</header>
