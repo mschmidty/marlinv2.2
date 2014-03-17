@@ -17,7 +17,9 @@
 	            <div class="block">
 	                <h2 class="block-title">Navigation</h2>
 	                <?php wp_nav_menu( array('menu' => 'Nav' )); ?>
-	                <a class="close-btn" id="nav-close-btn" href="#top">Back to Content</a>
+	                <a class="close-btn" id="nav-close-btn" href="#top">
+	                	Back to Content
+	                </a>
 	            </div>
 	     	</nav>
 	        <div id="main" role="main" class="main">

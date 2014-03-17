@@ -408,7 +408,15 @@ th {
 -----========================================================================*/
 @font-face {
   font-family: custom-font;
-  src: url("font/bebasneue-r.otf");
+  src: url("font/bebasneue-r.otf"), url("font/bebasneue-r.otf");
+}
+
+@font-face {
+  font-family: dsciconfonts;
+  src: url("font/dsciconfonts.eot?");
+  src: url("font/dsciconfonts.eot?") format("embedded-opentype"), url("font/dsciconfonts.woff") format("woff"), url("font/dsciconfonts.ttf") format("truetype"), url("font/dsciconfonts.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
 }
 
 /*---------------------------------------------------------------------------
