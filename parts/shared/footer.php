@@ -8,7 +8,7 @@
 	                            <li><h5>durangoshadecompany@gmail.com</h5></li>
 	                    </ul>
 	                    <a href="https://www.facebook.com/pages/Durango-Shade-Company/220148161468362"><img src="<?php echo get_template_directory_uri(); ?>/images/facebook-icon.png"></a>
-	                    <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/instagram-icon.png"></a>
+	                    <a href="http://instagram.com/durangoshadecompany"><img src="<?php echo get_template_directory_uri(); ?>/images/instagram-icon.png"></a>
 	                </div>
 	                <div class="nav-footer">
 	                    <?php wp_nav_menu( array('menu' => 'Nav' )); ?>
