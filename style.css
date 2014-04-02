@@ -1025,6 +1025,7 @@ nav {
   line-height: 1.2;
   font-weight: bold;
   outline: none;
+  text-decoration: none;
 }
 #nav li a:focus, #nav li a:hover {
   color: #333333;

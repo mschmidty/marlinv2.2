@@ -8,9 +8,9 @@ Template Name: Home Page
 			<div class="home-banner">
         		<img src="<?php echo get_template_directory_uri(); ?>/images/banner-home.jpg" alt="photo by Insolroll">
                 <div class="promotion">
-                    <h3>March Only</h3>
-                    <a href="#">10% OFF</a>
-                    <h4>All Motorized Systems</h4>
+                    <h3>April Only</h3>
+                    <a href="#">$50 OFF</a>
+                    <h4>For Every $300 You Spend</h4>
                 </div>
             </div>
             <div class="pic-tag">
