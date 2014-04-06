@@ -13,6 +13,19 @@ $max-width: 60em;
     transition: $transition;
 }
 
+@mixin clearfix {
+    zoom:1;
+    &:before, &:after {
+        content: "\0020"; 
+        display: block; 
+        height: 0; 
+        overflow: hidden; 
+    }
+    &:after {
+        clear: both;
+    }
+}
+
 
 
 .page-wrap {
@@ -113,6 +126,28 @@ Main content organization and grid
 		width:33.33%;
 		padding-right:20px;
 	}
+	.col-1-4 {
+		width:25%;
+		padding-rigth:20px;
+	}
+	.col-3-4 {
+		width:75%;
+		padding-right:20px;
+	}
+	.col-1-5 {
+		width:20%;
+		padding-rigth:20px;
+	}
+	.col-4-5 {
+		width:80%;
+		padding-right:20px;
+	}
+}
+
+.border {
+		border-bottom: 2px solid $silver;
+		display:block;
+		padding-bottom:1em;
 }
 
 /*=====================================================================
@@ -271,7 +306,7 @@ Products Template
 
 ==========================================================================*/
 
-
+//Old
 .gallery-icon {
 	float:left;
 	width:19%;
@@ -303,8 +338,6 @@ Products Template
 	clear: both;
 }
 
-
-
 @media screen and (max-width: 35em){
 	.content {
 		.gallery-icon {
@@ -313,6 +346,79 @@ Products Template
 		}
 	}
 }
+
+//New
+.new {
+	.grid {
+		border-bottom:3px solid #ccc;
+	}
+	.grid:last-child {
+		border:none;
+	}
+	.products-wrap {
+		padding:2em;
+	}
+
+	h3 {
+		font-size:2.5em;
+		margin:0;
+		padding:0;
+	}
+	h3, h4 {
+		color:rgba(0,0,0,0.5);
+	}
+	h4, p {
+		text-align:center;
+	}
+	.products-thumb {
+		width:85%;
+		height:auto;
+		margin:0 auto;
+
+		img {
+			width:100%;
+			height:auto;
+			border-radius:50%;
+			-moz-box-shadow:    2px 2px 2px 0px rgba(0,0,0,0.6);
+    		-webkit-box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.6);
+    		box-shadow:         2px 2px 2px 0px rgba(0,0,0,0.6);
+		}
+	}
+
+	.exterior {
+		float:none;
+		margin:0 auto;
+		
+	}
+}
+
+@media screen and (max-width: 35em){
+	.new {
+		text-align:center;
+		.col-1-4, .col-3-4, .col-1-2 {
+			width:100%;
+			margin:0;
+			padding:0;
+		}
+		.products-wrap {
+			@include clearfix();
+			
+		}
+		h3 {
+			padding:.5em 0;
+			margin:0 0 .5em 0;
+			color:$grey;
+			br {
+				display:none;
+			}
+		}	
+		h2 {
+			margin-bottom:0;
+		}	
+	}
+}
+
+
 /*=====================================================================
 
 Review Template
@@ -466,6 +572,7 @@ footer {
 	position:relative;
 	margin:$content-margin;
 	text-align:center;
+	padding-top:2em;
 	img {
 		position:relative;
 		width:200px;

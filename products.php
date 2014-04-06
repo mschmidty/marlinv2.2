@@ -11,6 +11,4 @@ Template Name: Products
 <?php the_content(); ?>
 <?php endwhile; ?>
 </div></div>
-			
-
 <?php Starkers_Utilities::get_template_parts( array( 'parts/shared/footer','parts/shared/html-footer') ); ?>
