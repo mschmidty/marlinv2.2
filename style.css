@@ -645,18 +645,38 @@ Banner/Homepage
   margin-right: 0;
 }
 
-@media screen and (max-width: 27em) {
-  .home-banner .promotion {
-    bottom: auto !important;
-    right: auto !important;
-    position: relative;
-    margin: 0 auto;
-    background-color: #333333;
-  }
-  .home-banner .promotion h3, .home-banner .promotion h4, .home-banner .promotion h5 {
-    color: white;
-  }
+.cause-wrap {
+  background-color: #333333;
+  text-align: center;
+  padding: 2em;
+  margin: 0 3.5em;
+  positon: relative;
 }
+.cause-wrap .cause-title {
+  font-size: 2.5em;
+}
+.cause-wrap p {
+  color: white;
+}
+.cause-wrap h3 {
+  color: #ff4136;
+}
+.cause-wrap .cause-image {
+  background-color: white;
+  position: relative;
+  height: 17rem;
+  width: 17rem;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-bottom: 1em;
+}
+.cause-wrap .cause-image img {
+  position: relative;
+  margin-top: 3.5em;
+  text-align: center;
+  border-radius: 20%;
+}
+
 @media screen and (max-width: 38em) {
   .home .grid .col {
     padding-right: 0;
@@ -668,6 +688,32 @@ Banner/Homepage
   }
   .home .grid .col:last-child {
     border: none;
+  }
+
+  .cause-wrap {
+    margin: 0;
+  }
+}
+@media screen and (max-width: 27em) {
+  .home-banner .promotion {
+    bottom: auto !important;
+    right: auto !important;
+    position: relative;
+    margin: 0 auto;
+    background-color: #333333;
+  }
+  .home-banner .promotion h3, .home-banner .promotion h4, .home-banner .promotion h5 {
+    color: white;
+  }
+
+  .cause-wrap .cause-image {
+    width: 14em;
+    height: 14em;
+  }
+  .cause-wrap .cause-image img {
+    width: 11em;
+    height: auto;
+    margin-top: 2.5em;
   }
 }
 /*=====================================================================

@@ -35,5 +35,12 @@ Template Name: Home Page
                     </div>
                 </div>
             </div>
+            <div class="cause-wrap">
+                <h3 class="cause-title">2014 1st Quarter Donation Goes To:</h3>
+                <div class="cause-image">
+                    <img src="http://www.alternativehorizons.org/ah/includes/themes/altHor/images/AlternativeHorizons-logo-ta.jpg" alt="Alternative Horizons" />
+                </div>
+                <p>We are excited to support Alternative Horizons as our "Cause" for the 1st quarter 2014 Donation. Alternative Horizons provides free, confidential support and alternatives to survivors of domestic violence and their families.</p> 
+            </div>
 
 <?php Starkers_Utilities::get_template_parts( array( 'parts/shared/footer','parts/shared/html-footer') ); ?>
