@@ -42,7 +42,7 @@ Template Name: Home Page
                         <img src="http://www.alternativehorizons.org/ah/includes/themes/altHor/images/AlternativeHorizons-logo-ta.jpg" alt="Alternative Horizons" />
                     </div>
                 </a>    
-                <p>We are excited to support Alternative Horizons as our CAUSE for our 1st quarter 2014 Donation. Alternative Horizons provides free, confidential support and alternatives to survivors of domestic violence and their families. We will donate %3 of our profits this month. To find out more about what they do click <a class="cause-link" href="http://www.alternativehorizons.org/">HERE</a></p> 
+                <p>We are excited to support Alternative Horizons as our CAUSE for our 1st quarter 2014 Donation. Alternative Horizons provides free, confidential support and alternatives to survivors of domestic violence and their families. We will donate 3% of our profits this quarter. To find out more about what they do click <a class="cause-link" href="http://www.alternativehorizons.org/">HERE</a></p> 
             </div>
 
 <?php Starkers_Utilities::get_template_parts( array( 'parts/shared/footer','parts/shared/html-footer') ); ?>
