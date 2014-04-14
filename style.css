@@ -465,7 +465,6 @@ p {
   width: 100%;
   max-width: 60em;
   margin: 0 auto;
-  padding-bottom: 4em;
 }
 
 .block {
@@ -648,8 +647,7 @@ Banner/Homepage
 .cause-wrap {
   background-color: #333333;
   text-align: center;
-  padding: 2em;
-  margin: 0 3.5em;
+  padding: 2em 6em;
   positon: relative;
 }
 .cause-wrap .cause-title {
@@ -695,6 +693,10 @@ Banner/Homepage
 
   .cause-wrap {
     margin: 0;
+    padding: 2em 1em;
+  }
+  .cause-wrap p {
+    text-align: left;
   }
 }
 @media screen and (max-width: 27em) {
@@ -834,7 +836,7 @@ Products Template
   -webkit-box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.6);
   box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.6);
 }
-.new .exterior {
+.new .exterior-product {
   float: none;
   margin: 0 auto;
 }
@@ -870,6 +872,70 @@ Products Template
   }
   .new h2 {
     margin-bottom: 0;
+  }
+}
+.exterior .grid {
+  padding: 2em;
+}
+.exterior .grid .col-1-2 {
+  padding: 0;
+  margin: 1em 0;
+  position: relative;
+}
+.exterior .grid:first-child {
+  padding: 0;
+}
+.exterior .products-show .products-thumb {
+  width: 60%;
+}
+.exterior [class*='show'] {
+  text-align: center;
+}
+
+.hide1, .hide2, .hide3, .hide4 {
+  display: none;
+  position: fixed;
+  width: 90%;
+  top: 5em;
+  left: 50%;
+  margin: 0 0 0 -45%;
+  padding: 2em;
+  background-color: white;
+  z-index: 999;
+  box-shadow: 0 0 100px 10px rgba(0, 0, 0, 0.8);
+}
+.hide1 p, .hide2 p, .hide3 p, .hide4 p {
+  text-align: left;
+}
+.hide1 > h3, .hide2 > h3, .hide3 > h3, .hide4 > h3 {
+  text-align: center;
+  padding: 1em 0;
+  background-color: white;
+}
+.hide1 .products-thumb, .hide2 .products-thumb, .hide3 .products-thumb, .hide4 .products-thumb {
+  width: 65%;
+}
+.hide1 .col-1-3, .hide2 .col-1-3, .hide3 .col-1-3, .hide4 .col-1-3 {
+  padding-bottom: 2em;
+}
+
+@media screen and (max-width: 35em) {
+  .exterior .grid {
+    padding: 1em;
+  }
+  .exterior .grid .col-1-2 {
+    margin-top: 1em;
+  }
+  .exterior .grid .col-1-3 {
+    width: 100%;
+    padding-right: 0;
+  }
+  .exterior .grid .hide {
+    width: 100%;
+    left: 0;
+    right: 0;
+    margin: 0;
+    top: 0;
   }
 }
 /*=====================================================================
@@ -1008,10 +1074,11 @@ Footer
 
 ==========================================================================*/
 footer {
+  background-color: #dddddd;
   position: relative;
-  margin: 0 0.5em;
   text-align: center;
-  padding-top: 2em;
+  padding: 2em 0;
+  z-index: 1;
 }
 footer img {
   position: relative;

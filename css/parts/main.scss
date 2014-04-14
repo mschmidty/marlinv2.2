@@ -16,10 +16,10 @@ $max-width: 60em;
 @mixin clearfix {
     zoom:1;
     &:before, &:after {
-        content: "\0020"; 
-        display: block; 
-        height: 0; 
-        overflow: hidden; 
+        content: "\0020";
+        display: block;
+        height: 0;
+        overflow: hidden;
     }
     &:after {
         clear: both;
@@ -32,7 +32,6 @@ $max-width: 60em;
 	width:100%;
 	max-width:$max-width;
 	margin:0 auto;
-	padding-bottom:4em;
 }
 .block {
 	position:relative;
@@ -56,7 +55,7 @@ Header
 ==========================================================================*/
 header {
   position:relative;
-  z-index:50;	
+  z-index:50;
 }
 .header-logo {
 	text-decoration:none;
@@ -84,7 +83,7 @@ Main content organization and grid
 }
 .content {
 	margin:$content-margin;
-	
+
 	h2 {
 		text-align:center;
 		background-color:$grey;
@@ -105,10 +104,10 @@ Main content organization and grid
 		padding:0 0 20px 0;
 		width:100%;
 		clear:both;
-	
+
 	.col {
 		float:left;
-		
+
 		width:100%;
 	}
 	.col-1-1 {
@@ -171,7 +170,7 @@ Banner/Homepage
 	bottom:1em;
 	background:rgba(255, 255, 255, 0.7);
 	padding:.5em;
-	
+
 		h4, h3, h4, h5, a {
 		position:relative;
 		text-align:center;
@@ -198,10 +197,10 @@ Banner/Homepage
 }
 
 .pic-tag:after {
-	content: "."; 
-	visibility: hidden; 
-	display: block; 
-	height: 0; 
+	content: ".";
+	visibility: hidden;
+	display: block;
+	height: 0;
 	clear: both;
 }
 
@@ -223,8 +222,7 @@ Banner/Homepage
 .cause-wrap {
 	background-color:$grey;
 	text-align:center;
-	padding:2em;
-	margin: 0 3.5em;
+	padding:2em 6em;
 	positon:relative;
 	.cause-title {
 		font-size:2.5em;
@@ -274,12 +272,16 @@ Banner/Homepage
 	}
 	.cause-wrap {
 		margin:0;
+		padding: 2em 1em;
+		p {
+			text-align:left;
+		}
 	}
 }
 @media screen and (max-width: 27em){
 	.home-banner{
 		.promotion {
-			bottom:auto !important;	
+			bottom:auto !important;
 			right:auto !important;
 			position:relative;
 			margin:$center;
@@ -330,7 +332,7 @@ About Template
 			height:100%;
 			position:relative;
 			border-radius:50%;
-			
+
 		}
 	}
 	h3 {
@@ -367,7 +369,7 @@ Products Template
 	margin-bottom:.2em;
 	transition: position 3s ease;
 	position:relative;
-	
+
 
 	img {
 		width:100%;
@@ -383,10 +385,10 @@ Products Template
 
 
 .gallery-ieon:after {
-	content: "."; 
-	visibility: hidden; 
-	display: block; 
-	height: 0; 
+	content: ".";
+	visibility: hidden;
+	display: block;
+	height: 0;
 	clear: both;
 }
 
@@ -437,10 +439,10 @@ Products Template
 		}
 	}
 
-	.exterior {
+	.exterior-product {
 		float:none;
 		margin:0 auto;
-		
+
 	}
 }
 
@@ -454,7 +456,7 @@ Products Template
 		}
 		.products-wrap {
 			@include clearfix();
-			
+
 		}
 		h3 {
 			padding:.5em 0;
@@ -463,10 +465,86 @@ Products Template
 			br {
 				display:none;
 			}
-		}	
+		}
 		h2 {
 			margin-bottom:0;
-		}	
+		}
+	}
+}
+
+// Exterior
+
+.exterior {
+	.grid {
+		padding:2em;
+		.col-1-2 {
+			padding:0;
+			margin:1em 0;
+			position:relative;
+		}
+	}
+	.grid:first-child {
+		padding:0;
+	}
+	.products-show {
+		.products-thumb {
+			width:60%;
+		}
+	}
+	[class*='show'] {
+		text-align:center;
+	}
+
+}
+
+
+.hide1,.hide2, .hide3, .hide4{
+	display:none;
+	position:fixed;
+ 	width:90%;
+	top:5em;
+  	left:50%;
+  	margin:0 0 0 -45%;
+	padding:2em;
+	background-color:$background;
+	z-index:999;
+	box-shadow:0 0 100px 10px rgba(0,0,0,0.8);
+	p {
+		text-align:left;
+	}
+	>h3 {
+		text-align:center;
+		padding:1em 0;
+		background-color:$background;
+	}
+	.products-thumb {
+		width:65%;
+	}
+	.col-1-3 {
+		padding-bottom:2em;
+	}
+}
+
+
+@media screen and (max-width: 35em){
+	.exterior {
+		.grid {
+			padding:1em;
+			.col-1-2 {
+				margin-top:1em;
+			}
+			.col-1-3 {
+				width:100%;
+				padding-right:0;
+			}
+			.hide {
+				width:100%;
+				left:0;
+				right:0;
+				margin:0;
+				top:0;
+			}
+		}
 	}
 }
 
@@ -483,11 +561,11 @@ Review Template
 		padding-bottom:1em;
 	}
 	.border:after {
-		content: "."; 
-	    visibility: hidden; 
-	    display: block; 
-	    height: 0; 
-	    clear: both; 
+		content: ".";
+	    visibility: hidden;
+	    display: block;
+	    height: 0;
+	    clear: both;
 	}
 	img {
 		width:100%;
@@ -548,10 +626,10 @@ Contact
 		}
 	}
 	.right-contact:after, .left-contact:after {
-		content: "."; 
-		visibility: hidden; 
-		display: block; 
-		height: 0; 
+		content: ".";
+		visibility: hidden;
+		display: block;
+		height: 0;
 		clear: both;
 	}
 	.wpcf7 {
@@ -597,7 +675,7 @@ Contact
 			}
 			margin-bottom:2em;
 		}
-		
+
 		.wpcf7 {
 			padding:0 2em 0 0;
 		}
@@ -621,10 +699,11 @@ Footer
 ==========================================================================*/
 
 footer {
+	background-color:$silver;
 	position:relative;
-	margin:$content-margin;
 	text-align:center;
-	padding-top:2em;
+	padding:2em 0;
+	z-index:1;
 	img {
 		position:relative;
 		width:200px;
@@ -644,7 +723,7 @@ footer {
 
 	li {
 		text-decoration:none;
-		
+
 	}
 
 	.menu-nav-container {
@@ -666,15 +745,9 @@ footer {
 				height:75px;
 				width:auto;
 				margin: 0 2em;
-				@include transition (height 0.4s ease); 
+				@include transition (height 0.4s ease);
 			}
 		}
 	}
 
 }
-
-
-
-
-
-
