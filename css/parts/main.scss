@@ -498,12 +498,14 @@ Products Template
 }
 
 
-.hide1,.hide2, .hide3, .hide4{
+.hide1,.hide2, .hide3, .hide4, .hide5, .hide6, .hide7{
 	display:none;
 	position:fixed;
  	width:90%;
+ 	height:auto;
 	top:5em;
   	left:50%;
+  	bottom:5em;
   	margin:0 0 0 -45%;
 	padding:2em;
 	background-color:$background;

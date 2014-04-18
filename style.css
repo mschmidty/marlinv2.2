@@ -892,30 +892,32 @@ Products Template
   text-align: center;
 }
 
-.hide1, .hide2, .hide3, .hide4 {
+.hide1, .hide2, .hide3, .hide4, .hide5, .hide6, .hide7 {
   display: none;
   position: fixed;
   width: 90%;
+  height: auto;
   top: 5em;
   left: 50%;
+  bottom: 5em;
   margin: 0 0 0 -45%;
   padding: 2em;
   background-color: white;
   z-index: 999;
   box-shadow: 0 0 100px 10px rgba(0, 0, 0, 0.8);
 }
-.hide1 p, .hide2 p, .hide3 p, .hide4 p {
+.hide1 p, .hide2 p, .hide3 p, .hide4 p, .hide5 p, .hide6 p, .hide7 p {
   text-align: left;
 }
-.hide1 > h3, .hide2 > h3, .hide3 > h3, .hide4 > h3 {
+.hide1 > h3, .hide2 > h3, .hide3 > h3, .hide4 > h3, .hide5 > h3, .hide6 > h3, .hide7 > h3 {
   text-align: center;
   padding: 1em 0;
   background-color: white;
 }
-.hide1 .products-thumb, .hide2 .products-thumb, .hide3 .products-thumb, .hide4 .products-thumb {
+.hide1 .products-thumb, .hide2 .products-thumb, .hide3 .products-thumb, .hide4 .products-thumb, .hide5 .products-thumb, .hide6 .products-thumb, .hide7 .products-thumb {
   width: 65%;
 }
-.hide1 .col-1-3, .hide2 .col-1-3, .hide3 .col-1-3, .hide4 .col-1-3 {
+.hide1 .col-1-3, .hide2 .col-1-3, .hide3 .col-1-3, .hide4 .col-1-3, .hide5 .col-1-3, .hide6 .col-1-3, .hide7 .col-1-3 {
   padding-bottom: 2em;
 }
 
