@@ -18,14 +18,15 @@ Template Name: Products-New
         				<img src="<?php echo get_template_directory_uri(); ?>/images/products-interior-roller.jpg" alt="photo by Insolroll"/>
       				</div>
       				<h4>Roller Shades</h4>
-      				<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+      				<p>Premium, high quality roller shades designed for interior applications. Available in a verity of colors and fabric openness.</p>
+      				<a href="index.php?page_id=140"></a>
 				</div>
 				<div class="col col-1-2">
 					<div class="products-thumb">
         				<img src="<?php echo get_template_directory_uri(); ?>/images/products-interior-cellular.jpg" alt="photo by Insolroll"/>
       				</div>
       				<h4>Cellular Shades</h4>
-      				<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+      				<p>High Quality cellular shades designed for interior applications.  Available in 3 cell sizes and 4 different opacity levels.</p>
 				</div>
 			</div>
 		</div>
@@ -41,7 +42,7 @@ Template Name: Products-New
         				<img src="<?php echo get_template_directory_uri(); ?>/images/products-exterior.jpg" alt="photo by Insolroll"/>
       				</div>
       				<h4>Oasis Shade System</h4>
-      				<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+      				<p>Premium solar screen and heavy-duty insect screen systems designed for exterior applications. Available in both motorized and manual operation.</p>
 				</div>
 			</div>
 		</div>

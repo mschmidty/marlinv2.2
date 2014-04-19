@@ -7,7 +7,7 @@ Template Name: Interior-Roller
 <?php Starkers_Utilities::get_template_parts( array( 'parts/shared/html-header', 'parts/shared/header' ) ); ?>
 <div class="content exterior new">
     <div class="grid"> 
-        <h2>Exterior</h2>
+        <h2>Roller Shades</h2>
     <?php
  
     $custom_query = new WP_Query(array(

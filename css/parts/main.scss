@@ -500,7 +500,7 @@ Products Template
 
 .hide1,.hide2, .hide3, .hide4, .hide5, .hide6, .hide7{
 	display:none;
-	position:fixed;
+	position:fixed !important;
  	width:90%;
  	height:auto;
 	top:5em;
@@ -540,6 +540,7 @@ Products Template
 				padding-right:0;
 			}
 			.hide {
+				position:fixed;
 				width:100%;
 				left:0;
 				right:0;
