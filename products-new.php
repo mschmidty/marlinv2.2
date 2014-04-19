@@ -19,7 +19,7 @@ Template Name: Products-New
       				</div>
       				<h4>Roller Shades</h4>
       				<p>Premium, high quality roller shades designed for interior applications. Available in a verity of colors and fabric openness.</p>
-      				<a href="index.php?page_id=140"></a>
+      				<a href="index.php?page_id=140">Go To Roller Shades Page</a>
 				</div>
 				<div class="col col-1-2">
 					<div class="products-thumb">
