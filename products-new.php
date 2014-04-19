@@ -14,19 +14,20 @@ Template Name: Products-New
 			</div>
 			<div class="col col-3-4">
 				<div class="col col-1-2">
-					<div class="products-thumb">
+					<a href="index.php?page_id=140"><div class="products-thumb">
         				<img src="<?php echo get_template_directory_uri(); ?>/images/products-interior-roller.jpg" alt="photo by Insolroll"/>
-      				</div>
-      				<h4>Roller Shades</h4>
+      				</div></a>
+      				<a href="index.php?page_id=140"><h4>Roller Shades</h4></a>
       				<p>Premium, high quality roller shades designed for interior applications. Available in a verity of colors and fabric openness.</p>
-      				<a href="index.php?page_id=140">Go To Roller Shades Page</a>
+      				<a href="index.php?page_id=140">See More Roller Shade Options</a>
 				</div>
 				<div class="col col-1-2">
-					<div class="products-thumb">
+					<a href="index.php?page_id=142"><div class="products-thumb">
         				<img src="<?php echo get_template_directory_uri(); ?>/images/products-interior-cellular.jpg" alt="photo by Insolroll"/>
-      				</div>
-      				<h4>Cellular Shades</h4>
+      				</div></a>
+      				<a href="index.php?page_id=142"><h4>Cellular Shades</h4></a>
       				<p>High Quality cellular shades designed for interior applications.  Available in 3 cell sizes and 4 different opacity levels.</p>
+      				<a href="index.php?page_id=142">See More Cellular Shade Options</a>
 				</div>
 			</div>
 		</div>
@@ -38,11 +39,12 @@ Template Name: Products-New
 			</div>
 			<div class="col col-3-4">
 				<div class="col col-1-2 exterior">
-					<div class="products-thumb">
+					<a href="index.php?page_id=115"><div class="products-thumb">
         				<img src="<?php echo get_template_directory_uri(); ?>/images/products-exterior.jpg" alt="photo by Insolroll"/>
-      				</div>
-      				<h4>Oasis Shade System</h4>
+      				</div></a>
+      				<a href="index.php?page_id=115"><h4>Exterior Shades</h4></a>
       				<p>Premium solar screen and heavy-duty insect screen systems designed for exterior applications. Available in both motorized and manual operation.</p>
+					<a href="index.php?page_id=115">See More Exterior Shade Options</a>
 				</div>
 			</div>
 		</div>
