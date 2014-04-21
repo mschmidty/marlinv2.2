@@ -36,7 +36,7 @@ if ( $custom_query->have_posts() ) :
     echo        '<a class="close-product" href="#">Click to Close</a>';
     echo        '<h3>' . get_the_title() . ' Details</h3>';
     echo            '<div class="col col-1-3">';
-    echo                '<h4>System</h4>';
+    echo                '<h4>Image</h4>';
     echo                '<div class="products-thumb">';
                             $mechanism_image = get_field('mechanism_image');
                             if(!empty($mechanism_image)):

@@ -424,6 +424,11 @@ Products Template
 	h4, p {
 		text-align:center;
 	}
+	a {
+		margin:0 auto;
+		text-align:center;
+		display:block;
+	}
 	.products-thumb {
 		width:85%;
 		height:auto;
@@ -469,6 +474,9 @@ Products Template
 		h2 {
 			margin-bottom:0;
 		}
+		.col-1-2:nth-of-type(1) {
+			margin-bottom:1.5em;
+		}
 	}
 }
 
@@ -511,6 +519,7 @@ Products Template
 	background-color:$background;
 	z-index:999;
 	box-shadow:0 0 100px 10px rgba(0,0,0,0.8);
+	overflow:auto;
 	p {
 		text-align:left;
 	}
@@ -546,6 +555,7 @@ Products Template
 				right:0;
 				margin:0;
 				top:0;
+				bottom:0;
 			}
 		}
 	}

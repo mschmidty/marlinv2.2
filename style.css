@@ -823,6 +823,11 @@ Products Template
 .new h4, .new p {
   text-align: center;
 }
+.new a {
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+}
 .new .products-thumb {
   width: 85%;
   height: auto;
@@ -873,6 +878,9 @@ Products Template
   .new h2 {
     margin-bottom: 0;
   }
+  .new .col-1-2:nth-of-type(1) {
+    margin-bottom: 1.5em;
+  }
 }
 .exterior .grid {
   padding: 2em;
@@ -905,6 +913,7 @@ Products Template
   background-color: white;
   z-index: 999;
   box-shadow: 0 0 100px 10px rgba(0, 0, 0, 0.8);
+  overflow: auto;
 }
 .hide1 p, .hide2 p, .hide3 p, .hide4 p, .hide5 p, .hide6 p, .hide7 p {
   text-align: left;
@@ -939,6 +948,7 @@ Products Template
     right: 0;
     margin: 0;
     top: 0;
+    bottom: 0;
   }
 }
 /*=====================================================================
@@ -1445,7 +1455,7 @@ nav {
     backface-visibility: hidden;
   }
 
-  .csstransforms3d.csstransitions.js-ready #inner-wrap {
+  /*.csstransforms3d.csstransitions.js-ready #inner-wrap {
     left: 0 !important;
     -webkit-transform: translate3d(0, 0, 0);
     -moz-transform: translate3d(0, 0, 0);
@@ -1499,5 +1509,5 @@ nav {
     -ms-transform: translate3d(0, 0, 0);
     -o-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
-  }
+  }*/
 }

@@ -19,7 +19,7 @@ Template Name: Products-New
       				</div></a>
       				<a href="index.php?page_id=140"><h4>Roller Shades</h4></a>
       				<p>Premium, high quality roller shades designed for interior applications. Available in a verity of colors and fabric openness.</p>
-      				<a href="index.php?page_id=140">See More Roller Shade Options</a>
+      				<a class="product-margin-after-link" href="index.php?page_id=140">See More Roller Shade Options</a>
 				</div>
 				<div class="col col-1-2">
 					<a href="index.php?page_id=142"><div class="products-thumb">
@@ -27,7 +27,7 @@ Template Name: Products-New
       				</div></a>
       				<a href="index.php?page_id=142"><h4>Cellular Shades</h4></a>
       				<p>High Quality cellular shades designed for interior applications.  Available in 3 cell sizes and 4 different opacity levels.</p>
-      				<a href="index.php?page_id=142">See More Cellular Shade Options</a>
+      				<a  href="index.php?page_id=142">See More Cellular Shade Options</a>
 				</div>
 			</div>
 		</div>
