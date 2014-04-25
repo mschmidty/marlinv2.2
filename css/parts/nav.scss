@@ -115,9 +115,12 @@ nav {
     background: rgba(0, 0, 0, 0.1);
     }
   }
-  .current-menu-item a {
+  .current-menu-item {
     color:$red;
     }
+  .current-page-ancestor a  {
+    color:$red;
+  }  
   li.is-active a {
   color: #fff;
   }

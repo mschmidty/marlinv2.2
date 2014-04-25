@@ -823,10 +823,17 @@ Products Template
 .new h4, .new p {
   text-align: center;
 }
+.new p {
+  margin-right: 1%;
+  margin-left: 1%;
+}
 .new a {
   margin: 0 auto;
   text-align: center;
   display: block;
+}
+.new .title-link {
+  text-decoration: none;
 }
 .new .products-thumb {
   width: 85%;
@@ -1254,7 +1261,10 @@ nav {
   color: #333333;
   background: rgba(0, 0, 0, 0.1);
 }
-#nav .current-menu-item a {
+#nav .current-menu-item {
+  color: #ff4136;
+}
+#nav .current-page-ancestor a {
   color: #ff4136;
 }
 #nav li.is-active a {

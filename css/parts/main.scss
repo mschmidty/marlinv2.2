@@ -424,10 +424,17 @@ Products Template
 	h4, p {
 		text-align:center;
 	}
+	p {
+			margin-right:1%;
+			margin-left:1%;
+	}
 	a {
 		margin:0 auto;
 		text-align:center;
 		display:block;
+	}
+	.title-link {
+		text-decoration:none;
 	}
 	.products-thumb {
 		width:85%;
@@ -474,6 +481,7 @@ Products Template
 		h2 {
 			margin-bottom:0;
 		}
+
 		.col-1-2:nth-of-type(1) {
 			margin-bottom:1.5em;
 		}

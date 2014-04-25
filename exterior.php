@@ -28,7 +28,7 @@ if ( $custom_query->have_posts() ) :
                         
                     endif;
     echo            '</div>';
-    echo            '<h4>' . get_the_title() . '</h4>';
+    echo            '<h4>' . get_the_title() . 's</h4>';
     echo            '<p>' . get_field('product_info') . '</p>';
     echo            '<a class="' . get_field('unique_ident_dropdown') . '" href="#">Click for More Info</a>';
     echo        '</div>';
