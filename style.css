@@ -994,6 +994,7 @@ Review Template
   }
   .review .col-1-2 {
     width: 100%;
+    padding-right: 0;
   }
   .review .col-1-2 img {
     width: 80%;
