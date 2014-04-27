@@ -1261,7 +1261,7 @@ nav {
   color: #333333;
   background: rgba(0, 0, 0, 0.1);
 }
-#nav .current-menu-item {
+#nav .current-menu-item a {
   color: #ff4136;
 }
 #nav .current-page-ancestor a {
