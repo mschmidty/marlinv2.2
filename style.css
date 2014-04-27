@@ -1060,6 +1060,9 @@ Contact
   .contact .col .col-1-2 {
     width: 100%;
   }
+  .contact .col .wpcf7 {
+    margin-left: 0.5em;
+  }
   .contact .right-contact, .contact .left-contact {
     float: none;
   }
