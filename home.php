@@ -8,7 +8,7 @@ Template Name: Home Page
 			<div class="home-banner">
         		<img src="<?php echo get_template_directory_uri(); ?>/images/banner-home.jpg" alt="photo by Insolroll">
                 <div class="promotion">
-                    <h3>Email us with Code DRGOSHADECO05</h3>
+                    <h3>Email us with Code DRGOSHADE5</h3>
                     <a href="#">Receive 15% Off</a>
                     <h4>In The Subject Line</h4>
                 </div>
