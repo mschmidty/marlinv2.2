@@ -7,11 +7,6 @@ Template Name: Home Page
 <?php Starkers_Utilities::get_template_parts( array( 'parts/shared/html-header', 'parts/shared/header' ) ); ?>
 			<div class="home-banner">
         		<img src="<?php echo get_template_directory_uri(); ?>/images/banner-home.jpg" alt="photo by Insolroll">
-                <div class="promotion">
-                    <h3>Email us with Code </h3>
-                    <a href="#">Receive 15% Off</a>
-                    <h4>DRGOSHADE5 In The Subject Line</h4>
-                </div>
             </div>
             <div class="pic-tag">
                 <p>Photo by Insolroll</p>
