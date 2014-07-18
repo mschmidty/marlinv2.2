@@ -31,13 +31,13 @@ Template Name: Home Page
                 </div>
             </div>
             <div class="cause-wrap">
-                <h3 class="cause-title">2014 1st Quarter Donation Goes To:</h3>
-                <a href="http://www.alternativehorizons.org/">
+                <h3 class="cause-title">2014 2nd Quarter Donation Goes To:</h3>
+                <a href="http://www.stjude.org/">
                     <div class="cause-image">
-                        <img src="http://www.alternativehorizons.org/ah/includes/themes/altHor/images/AlternativeHorizons-logo-ta.jpg" alt="Alternative Horizons" />
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/stjude.jpg" alt="St. Jude Childrens Hospital Logo" />
                     </div>
                 </a>    
-                <p>We are excited to support Alternative Horizons as our CAUSE for our 1st quarter 2014 Donation. Alternative Horizons provides free, confidential support and alternatives to survivors of domestic violence and their families. We have donated 3% of our profits this quarter. To find out more about what they do click <a class="cause-link" href="http://www.alternativehorizons.org/">HERE</a></p> 
+                <p>Our 2nd quarter donation went to St Jude Children's Hospital. A  treatment and research facility devoted to help children with catastrophic diseases. You can learn more about them at <a class="cause-link" href="http://www.stjude.org/">www.stjude.org</a></p> 
             </div>
 
 <?php Starkers_Utilities::get_template_parts( array( 'parts/shared/footer','parts/shared/html-footer') ); ?>
