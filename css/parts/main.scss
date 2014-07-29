@@ -114,11 +114,11 @@ Main content organization and grid
 		width:100%;
 	}
 	.col-1-2 {
-		width:50%;
-		padding-right:20px;
+		width:48%;
+		margin-right:2%;
 	}
 	.col-1-2:nth-of-type(2n) {
-		padding-right:0;
+		margin-right:0;
 	}
 	.col-2-3 {
 		width:66.66%;
@@ -183,7 +183,12 @@ Banner/Homepage
 	bottom:1em;
 	background:rgba(255, 255, 255, 0.7);
 	padding:.5em;
-
+	width:33%;
+	min-width:18em;
+		p {
+			font-size:.8em;
+			font-style:italic;
+		}
 		h4, h3, h4, h5, a {
 		position:relative;
 		text-align:center;
@@ -291,7 +296,7 @@ Banner/Homepage
 		}
 	}
 }
-@media screen and (max-width: 27em){
+@media screen and (max-width: 38em){
 	.home-banner{
 		.promotion {
 			bottom:auto !important;
@@ -299,8 +304,12 @@ Banner/Homepage
 			position:relative;
 			margin:$center;
 			background-color:$grey;
-			h3, h4, h5 {
+			width:100%;
+			p {
 				color:$background;
+			}
+			h3, h4, h5 {
+				color:$red;
 			}
 		}
 	}
@@ -311,7 +320,7 @@ Banner/Homepage
 			img {
 				width:11em;
 				height:auto;
-				margin-top:2.5em;
+				margin-top:1.5em;
 			}
 		}
 	}

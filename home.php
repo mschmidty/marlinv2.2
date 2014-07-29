@@ -6,7 +6,11 @@ Template Name: Home Page
 
 <?php Starkers_Utilities::get_template_parts( array( 'parts/shared/html-header', 'parts/shared/header' ) ); ?>
 			<div class="home-banner">
-        		<img src="<?php echo get_template_directory_uri(); ?>/images/banner-home.jpg" alt="photo by Insolroll">
+        		<img src="<?php echo get_template_directory_uri(); ?>/images/banner-home1.jpg" alt="photo by Insolroll">
+                <div class="promotion">
+                    <p>"Marlin was extremely responsive and handled everything without requiring my involvement or time. The blinds he chose look great and the installation is top quality. I would highly recommend using Durango Shade Company!"</p>
+                    <h5>-Vivian Homza</h5>
+                </div>
             </div>
             <div class="pic-tag">
                 <p>Photo by Insolroll</p>

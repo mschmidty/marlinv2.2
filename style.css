@@ -546,11 +546,11 @@ Main content organization and grid
   width: 100%;
 }
 .grid .col-1-2 {
-  width: 50%;
-  padding-right: 20px;
+  width: 48%;
+  margin-right: 2%;
 }
 .grid .col-1-2:nth-of-type(2n) {
-  padding-right: 0;
+  margin-right: 0;
 }
 .grid .col-2-3 {
   width: 66.66%;
@@ -612,6 +612,12 @@ Banner/Homepage
   bottom: 1em;
   background: rgba(255, 255, 255, 0.7);
   padding: .5em;
+  width: 33%;
+  min-width: 18em;
+}
+.home-banner .promotion p {
+  font-size: .8em;
+  font-style: italic;
 }
 .home-banner .promotion h4, .home-banner .promotion h3, .home-banner .promotion h4, .home-banner .promotion h5, .home-banner .promotion a {
   position: relative;
@@ -711,16 +717,20 @@ Banner/Homepage
     text-align: left;
   }
 }
-@media screen and (max-width: 27em) {
+@media screen and (max-width: 38em) {
   .home-banner .promotion {
     bottom: auto !important;
     right: auto !important;
     position: relative;
     margin: 0 auto;
     background-color: #333333;
+    width: 100%;
+  }
+  .home-banner .promotion p {
+    color: white;
   }
   .home-banner .promotion h3, .home-banner .promotion h4, .home-banner .promotion h5 {
-    color: white;
+    color: #ff4136;
   }
 
   .cause-wrap .cause-image {
@@ -730,7 +740,7 @@ Banner/Homepage
   .cause-wrap .cause-image img {
     width: 11em;
     height: auto;
-    margin-top: 2.5em;
+    margin-top: 1.5em;
   }
 }
 /*=====================================================================
@@ -1376,7 +1386,7 @@ nav {
     padding: 0.42857em 0.4em;
   }
 }
-@media screen and (max-width: 47.5em) {
+@media screen and (max-width: 48.5em) {
   .logo {
     position: relative;
     margin-left: 6.25em;
