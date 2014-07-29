@@ -172,13 +172,15 @@ Banner/Homepage
 .home-banner {
 	width:100%;
 	position:relative;
+	margin-bottom:1em;
 	img {
 		width:100%;
 	}
 	.promotion {
 	position:absolute;
 	text-align:center;
-	margin:0;
+	margin:0 0 .7em 0;
+
 	right:1em;
 	bottom:1em;
 	background:rgba(255, 255, 255, 0.7);

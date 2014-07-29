@@ -12,9 +12,6 @@ Template Name: Home Page
                     <h5>-Vivian Homza</h5>
                 </div>
             </div>
-            <div class="pic-tag">
-                <p>Photo by Insolroll</p>
-            </div>
             <div class="content home">
                 <div class="grid">
                     <div class="col col-1-3">
