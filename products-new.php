@@ -35,7 +35,7 @@ Template Name: Products-New
 	<div class="grid">	
 		<div class="products-wrap">
 			<div class="col col-1-4 product-type">
-				<h3>Exterior <br>Shades</h3>
+				<h3>Exterior Shades <br> and <br> Horizontal Blinds</h3>
 			</div>
 			<div class="col col-3-4">
 				<div class="col col-1-2 exterior">
@@ -45,6 +45,14 @@ Template Name: Products-New
       				<a class="title-link" href="index.php?page_id=115"><h4>Exterior Shades</h4></a>
       				<p>Premium solar screen and heavy-duty insect screen systems designed for exterior applications. Available in both motorized and manual operation.</p>
 					<a href="index.php?page_id=115">See More Exterior Shade Options</a>
+				</div>
+				<div class="col col-1-2 exterior">
+					<a href="index.php?page_id=283"><div class="products-thumb">
+        				<img src="<?php echo get_template_directory_uri(); ?>/images/horizontal-blinds.jpg" alt="photo by Insolroll"/>
+      				</div></a>
+      				<a class="title-link" href="index.php?page_id=283"><h4>Horizontal Blinds</h4></a>
+      				<p>We have a great selection of premium wood, metal and wood alternative blinds. All made in the USA.</p>
+					<a href="index.php?page_id=283">See More Horizontal Blind Options</a>
 				</div>
 			</div>
 		</div>
