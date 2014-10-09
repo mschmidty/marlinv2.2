@@ -32,13 +32,13 @@ Template Name: Home Page
                 </div>
             </div>
             <div class="cause-wrap">
-                <h3 class="cause-title">2014 2nd Quarter Donation Goes To:</h3>
-                <a href="http://www.stjude.org/">
+                <h3 class="cause-title">2014 3rd Quarter Donation Goes To:</h3>
+                <a href="http://www.asadurango.org/">
                     <div class="cause-image">
-                        <img src="<?php echo get_template_directory_uri(); ?>/images/stjude.jpg" alt="St. Jude Childrens Hospital Logo" />
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/adaptive_sports.jpg" alt="St. Jude Childrens Hospital Logo" />
                     </div>
                 </a>    
-                <p>Our 2nd quarter donation went to St Jude Children's Hospital. A  treatment and research facility devoted to help children with catastrophic diseases. You can learn more about them at <a class="cause-link" href="http://www.stjude.org/">www.stjude.org</a></p> 
+                <p>Adaptive Sports Association of Durango helps enhance the lives of people with disabilities. Through sports and recreational programs, ASA works with students to overcome their physical and cognitive challenges. You can find them online at <a href="http://www.asadurango.com">www.asadurango.com</a></p> 
             </div>
 
 <?php Starkers_Utilities::get_template_parts( array( 'parts/shared/footer','parts/shared/html-footer') ); ?>
