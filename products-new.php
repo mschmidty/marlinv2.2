@@ -51,7 +51,7 @@ Template Name: Products-New
 			</div>
 			<div class="col col-1-3">
 				<a href="#"><div class="products-thumb">
-    				<img src="<?php echo get_template_directory_uri(); ?>/images/natural-swatch.jpg" alt="photo by Insolroll"/>
+    				<img src="<?php echo get_template_directory_uri(); ?>/images/natural-shade-swatch.jpg" alt="photo by Insolroll"/>
   				</div></a>
   				<a class="title-link" href="#"><h4>Natural Shades</h4></a>
   				<p>Graber Natural Drapes are made from organic, renewable resources and come in a variety of colors and textures.</p>
@@ -65,7 +65,6 @@ Template Name: Products-New
   				<p>Made from 100% North American hardwood, Graber Traditions Shutters are high quality and easy to customize.</p>
 				<a href="#">See More Shutter Options</a>
 			</div>
-			
 		</div>
 	</div>	
 </div>
