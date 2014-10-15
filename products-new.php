@@ -42,28 +42,28 @@ Template Name: Products-New
 				<a href="index.php?page_id=283">See More Horizontal Blind Options</a>
 			</div>
 			<div class="col col-1-3">
-				<a href="#"><div class="products-thumb">
+				<a href="index.php?page_id=348"><div class="products-thumb">
     				<img src="<?php echo get_template_directory_uri(); ?>/images/sorenta-swatch.jpg" alt="photo by Insolroll"/>
   				</div></a>
-  				<a class="title-link" href="#"><h4>Sorenta Fabric Blinds</h4></a>
+  				<a class="title-link" href="index.php?page_id=348"><h4>Sorenta Fabric Blinds</h4></a>
   				<p>Lightweight, stain resistant and are available in 5 different patterns and 38 colors.</p>
-				<a href="#">See More Sorenta Fabric Blind Options</a>
+				<a href="index.php?page_id=348">See More Sorenta Fabric Blind Options</a>
 			</div>
 			<div class="col col-1-3">
-				<a href="#"><div class="products-thumb">
+				<a href="index.php?page_id=352"><div class="products-thumb">
     				<img src="<?php echo get_template_directory_uri(); ?>/images/natural-shade-swatch.jpg" alt="photo by Insolroll"/>
   				</div></a>
-  				<a class="title-link" href="#"><h4>Natural Shades</h4></a>
+  				<a class="title-link" href="index.php?page_id=352"><h4>Natural Shades</h4></a>
   				<p>Graber Natural Drapes are made from organic, renewable resources and come in a variety of colors and textures.</p>
-				<a href="#">See More Natural Shade Options</a>
+				<a href="index.php?page_id=352">See More Natural Shade Options</a>
 			</div>
 			<div class="col col-1-3">
-				<a href="#"><div class="products-thumb">
+				<a href="index.php?page_id=332"><div class="products-thumb">
     				<img src="<?php echo get_template_directory_uri(); ?>/images/shutters-swatch.jpg" alt="photo by Insolroll"/>
   				</div></a>
-  				<a class="title-link" href="#"><h4>Shutters</h4></a>
+  				<a class="title-link" href="index.php?page_id=332"><h4>Shutters</h4></a>
   				<p>Made from 100% North American hardwood, Graber Traditions Shutters are high quality and easy to customize.</p>
-				<a href="#">See More Shutter Options</a>
+				<a href="index.php?page_id=332">See More Shutter Options</a>
 			</div>
 		</div>
 	</div>	
