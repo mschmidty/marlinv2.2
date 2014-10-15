@@ -65,6 +65,7 @@ Template Name: Products-New
   				<p>Made from 100% North American hardwood, Graber Traditions Shutters are high quality and easy to customize.</p>
 				<a href="#">See More Shutter Options</a>
 			</div>
+			
 		</div>
 	</div>	
 </div>
