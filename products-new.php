@@ -14,7 +14,7 @@ Template Name: Products-New
     				<img src="<?php echo get_template_directory_uri(); ?>/images/products-interior-roller.jpg" alt="photo by Insolroll"/>
   				</div></a>
   				<a class="title-link" href="index.php?page_id=140"><h4>Roller Shades</h4></a>
-  				<p>Premium, high quality roller shades designed for interior applications. Available in a verity of colors and fabric openness.</p>
+  				<p>Premium, high quality roller shades designed for interior applications. Available in a variety of colors and fabric openness.</p>
   				<a class="product-margin-after-link" href="index.php?page_id=140">See More Roller Shade Options</a>
 			</div>
 			<div class="col col-1-3">
@@ -46,7 +46,7 @@ Template Name: Products-New
     				<img src="<?php echo get_template_directory_uri(); ?>/images/sorenta-swatch.jpg" alt="photo by Insolroll"/>
   				</div></a>
   				<a class="title-link" href="#"><h4>Sorenta Fabric Blinds</h4></a>
-  				<p>Lightweight, stain resistant and are available in 5 different patterns and 38 different colors.</p>
+  				<p>Lightweight, stain resistant and are available in 5 different patterns and 38 colors.</p>
 				<a href="#">See More Sorenta Fabric Blind Options</a>
 			</div>
 			<div class="col col-1-3">
