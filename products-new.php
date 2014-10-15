@@ -5,7 +5,7 @@ Template Name: Products-New
 ?>
 
 <?php Starkers_Utilities::get_template_parts( array( 'parts/shared/html-header', 'parts/shared/header' ) ); ?>
-<div class="content new">
+<div class="content new products-new">
 	<div class="grid">
 		<h2>Products</h2> 
 		<div class="products-wrap">
@@ -33,7 +33,7 @@ Template Name: Products-New
   				<p>Premium solar screen and heavy-duty insect screen systems designed for exterior applications. Available in both motorized and manual operation.</p>
 				<a href="index.php?page_id=115">See More Exterior Shade Options</a>
 			</div>
-			<div class="col col-1-3 exterior">
+			<div class="col col-1-3">
 				<a href="index.php?page_id=283"><div class="products-thumb">
     				<img src="<?php echo get_template_directory_uri(); ?>/images/horizontal-blinds.jpg" alt="photo by Insolroll"/>
   				</div></a>
