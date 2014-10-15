@@ -25,7 +25,7 @@ Template Name: Products-New
   				<p>High Quality cellular shades designed for interior applications.  Available in 3 cell sizes and 4 different opacity levels.</p>
   				<a  href="index.php?page_id=142">See More Cellular Shade Options</a>
 			</div>
-			<div class="col col-1-3 exterior">
+			<div class="col col-1-3">
 				<a href="index.php?page_id=115"><div class="products-thumb">
     				<img src="<?php echo get_template_directory_uri(); ?>/images/products-exterior.jpg" alt="photo by Insolroll"/>
   				</div></a>
@@ -40,6 +40,30 @@ Template Name: Products-New
   				<a class="title-link" href="index.php?page_id=283"><h4>Horizontal Blinds</h4></a>
   				<p>We have a great selection of premium wood, metal and wood alternative blinds. All made in the USA.</p>
 				<a href="index.php?page_id=283">See More Horizontal Blind Options</a>
+			</div>
+			<div class="col col-1-3">
+				<a href="#"><div class="products-thumb">
+    				<img src="<?php echo get_template_directory_uri(); ?>/images/sorenta-swatch.jpg" alt="photo by Insolroll"/>
+  				</div></a>
+  				<a class="title-link" href="#"><h4>Sorenta Fabric Blinds</h4></a>
+  				<p>Lightweight, stain resistant and are available in 5 different patterns and 38 different colors.</p>
+				<a href="#">See More Sorenta Fabric Blind Options</a>
+			</div>
+			<div class="col col-1-3">
+				<a href="#"><div class="products-thumb">
+    				<img src="<?php echo get_template_directory_uri(); ?>/images/natural-swatch.jpg" alt="photo by Insolroll"/>
+  				</div></a>
+  				<a class="title-link" href="#"><h4>Natural Shades</h4></a>
+  				<p>Graber Natural Drapes are made from organic, renewable resources and come in a variety of colors and textures.</p>
+				<a href="#">See More Natural Shade Options</a>
+			</div>
+			<div class="col col-1-3">
+				<a href="#"><div class="products-thumb">
+    				<img src="<?php echo get_template_directory_uri(); ?>/images/shutters-swatch.jpg" alt="photo by Insolroll"/>
+  				</div></a>
+  				<a class="title-link" href="#"><h4>Shutters</h4></a>
+  				<p>Made from 100% North American hardwood, Graber Traditions Shutters are high quality and easy to customize.</p>
+				<a href="#">See More Shutter Options</a>
 			</div>
 		</div>
 	</div>	
