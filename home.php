@@ -12,7 +12,7 @@ Template Name: Home Page
                     <h5>-Vivian Homza</h5>
                 </div>
             </div>
-            <div class="content home">
+            <div class="content-padding content content home">
                 <div class="grid">
                     <div class="col col-1-3">
                         <img src="<?php echo get_template_directory_uri(); ?>/images/house.png">

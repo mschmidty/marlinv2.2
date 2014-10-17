@@ -17,7 +17,7 @@ Template Name: Review
     
     if ( $custom_query->have_posts() ) :
 	                while ( $custom_query->have_posts() ) : $custom_query->the_post();
-	                	echo '<div class="border">';
+	                	echo '<div class="border content-padding">';
 	                	echo '<div class="col col-1-2">';  
 	                	echo '<h3>' . get_the_title() . '</h3>';                  
 	                    echo '<p>' . the_content() .'</p>';

@@ -5,7 +5,7 @@ Template Name: Products-New
 ?>
 
 <?php Starkers_Utilities::get_template_parts( array( 'parts/shared/html-header', 'parts/shared/header' ) ); ?>
-<div class="content new products-new">
+<div class="new content products-new">
 	<div class="grid">
 		<h2>Products</h2> 
 		<div class="products-wrap">
@@ -35,10 +35,10 @@ Template Name: Products-New
 			</div>
 			<div class="col col-1-3">
 				<a href="index.php?page_id=283"><div class="products-thumb">
-    				<img src="<?php echo get_template_directory_uri(); ?>/images/horizontal-blinds.jpg" alt="photo by Insolroll"/>
+    				<img src="<?php echo get_template_directory_uri(); ?>/images/wood-blinds.jpg" alt="photo by Insolroll"/>
   				</div></a>
   				<a class="title-link" href="index.php?page_id=283"><h4>Horizontal Blinds</h4></a>
-  				<p>We have a great selection of premium wood, metal and wood alternative blinds. All made in the USA.</p>
+  				<p>Graber's hardwood blinds are manufactured with on thing in mind, creating a quality product that lasts!</p>
 				<a href="index.php?page_id=283">See More Horizontal Blind Options</a>
 			</div>
 			<div class="col col-1-3">

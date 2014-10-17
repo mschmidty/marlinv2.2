@@ -1,0 +1,48 @@
+/*=====================================================================
+
+Review Template
+
+==========================================================================*/
+.review {
+	.border {
+		border-bottom: 2px solid $silver;
+		display:block;
+		padding-bottom:1em;
+	}
+	.border:after {
+		content: ".";
+	    visibility: hidden;
+	    display: block;
+	    height: 0;
+	    clear: both;
+	}
+	img {
+		width:100%;
+		height:auto;
+		margin: 1em 0 0 0;
+	}
+	p {
+		font-style:italic;
+	}
+}
+
+@media screen and (max-width: 47em){
+	.review {
+		h3 {
+			text-align:center;
+		}
+		.col {
+			float:none;
+			text-align:center;
+		}
+		.col-1-2 {
+			width:100%;
+			padding-right:0;
+			text-align:left;
+			img {
+				width:100%;
+				margin:0 auto;
+			}
+		}
+	}
+}

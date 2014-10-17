@@ -1,0 +1,59 @@
+/*=====================================================================
+
+Footer
+
+==========================================================================*/
+
+footer {
+	background-color:$silver;
+	position:relative;
+	text-align:center;
+	padding:2em 0;
+	z-index:1;
+	img {
+		position:relative;
+		width:200px;
+		height:auto;
+		margin:$center;
+		text-align:center;
+		padding-bottom:2em;
+	}
+
+	ul {
+		list-style-type:none;
+		text-indent:none;
+		text-align:center;
+		margin:0;
+		padding:0;
+	}
+
+	li {
+		text-decoration:none;
+
+	}
+
+	.menu-nav-container {
+		li {
+			display:inline-block;
+			margin:0 .75em 1em 0;
+		}
+
+		li:last-child {
+			margin: 0 0 1em 0;
+		}
+	}
+	.address-footer {
+		h5 {
+			margin:1em 0;
+		}
+		a {
+			img {
+				height:75px;
+				width:auto;
+				margin: 0 2em;
+				@include transition (height 0.4s ease);
+			}
+		}
+	}
+
+}

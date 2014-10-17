@@ -15,9 +15,15 @@ module.exports = function(grunt) {
           style: 'expanded'
       },
           files: {                         // Dictionary of files
-        'style.css': 'css/global.scss',       // 'destination': 'source'
+        'css/style.css': 'css/global.scss'       // 'destination': 'source'
         }
       }
+    },
+    autoprefixer: {
+        files: {
+          src:'css/style.css',
+          dest: 'style.css'
+        }
     },
     watch: {
       options: {
@@ -28,11 +34,11 @@ module.exports = function(grunt) {
           livereload:false
         },
         files: ['css/**/*.scss', 'css/*.scss'],
-        tasks: ['sass']
+        tasks: ['sass', 'autoprefixer']
       },
-      css: {
-        files: ['css/build/global.css'],
-        tasks: []
+      autoprefixer: {
+        files: ['css/styles.css'],
+        tasks: ['autoprefixer']
       }
     }
   });
@@ -40,9 +46,10 @@ module.exports = function(grunt) {
   // Load the plugin that provides the "uglify" task.
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-contrib-sass');
+  grunt.loadNpmTasks('grunt-autoprefixer');
   grunt.loadNpmTasks('grunt-contrib-watch');
 
   // Default task(s).
-  grunt.registerTask('default', ['uglify']);
+  grunt.registerTask('default', ['uglify','sass', 'autoprefixer']);
 
 };

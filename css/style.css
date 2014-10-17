@@ -194,6 +194,7 @@ figure {
  * Address differences between Firefox and other browsers.
  */
 hr {
+  -moz-box-sizing: content-box;
   box-sizing: content-box;
   height: 0;
 }
@@ -334,6 +335,8 @@ input[type="number"]::-webkit-outer-spin-button {
 input[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
   /* 2 */
   box-sizing: content-box;
 }
@@ -399,6 +402,8 @@ th {
 }
 
 *, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -839,8 +844,7 @@ Products Template
   height: auto;
   margin-right: 1%;
   margin-bottom: .2em;
-  -webkit-transition: position 3s ease;
-          transition: position 3s ease;
+  transition: position 3s ease;
   position: relative;
 }
 .gallery-icon img {
@@ -908,6 +912,8 @@ Products Template
   width: 100%;
   height: auto;
   border-radius: 50%;
+  -moz-box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.6);
   box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.6);
 }
 .new .exterior-product {
@@ -1208,6 +1214,8 @@ footer .address-footer a img {
   width: auto;
   margin: 0 2em;
   -webkit-transition: height 0.4s ease;
+  -moz-transition: height 0.4s ease;
+  -o-transition: height 0.4s ease;
   transition: height 0.4s ease;
 }
 
@@ -1491,6 +1499,8 @@ nav {
     height: 100%;
     width: 70%;
     background: white;
+    -webkit-box-shadow: inset -1.5em 0 1.5em -0.75em rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: inset -1.5em 0 1.5em -0.75em rgba(0, 0, 0, 0.25);
     box-shadow: inset -1.5em 0 1.5em -0.75em rgba(0, 0, 0, 0.25);
   }
 
@@ -1525,9 +1535,12 @@ nav {
   .csstransforms3d.csstransitions.js-ready #nav {
     left: 0;
     -webkit-transform: translate3d(-100%, 0, 0);
+    -moz-transform: translate3d(-100%, 0, 0);
     -ms-transform: translate3d(-100%, 0, 0);
+    -o-transform: translate3d(-100%, 0, 0);
     transform: translate3d(-100%, 0, 0);
     -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
     -ms-backface-visibility: hidden;
     -o-backface-visibility: hidden;
     backface-visibility: hidden;
