@@ -8,6 +8,12 @@ Template Name: products-details
 <div class="content review product-details"><div class="grid">
 	<?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
 	<h2><?php the_title(); ?></h2>
+	<div class="col col-1-2">
+		<?php the_content(); ?>
+	</div>
+	<div class="col col-1-2">
+		<?php the_post_thumbnail();?>
+	</div>
 	<?php endwhile; ?>
 
 	<?php rewind_posts(); ?>
