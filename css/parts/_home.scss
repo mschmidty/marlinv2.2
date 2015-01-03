@@ -16,7 +16,6 @@ Banner/Homepage
 	position:absolute;
 	text-align:center;
 	margin:0 0 .7em 0;
-
 	right:1em;
 	bottom:1em;
 	background:rgba(255, 255, 255, 0.7);
@@ -36,10 +35,14 @@ Banner/Homepage
 			text-decoration:none;
 			font-style-type:none;
 			color:$red;
-			font-size:3em;
+			font-size:3.2em;
 		}
-		h4, h3, h5 {
+		h4, h5 {
 			color:$grey;
+		}
+		h3 {
+			color:$red;
+			font-size:3rem;
 		}
 	}
 }
@@ -149,8 +152,11 @@ Banner/Homepage
 			p {
 				color:$background;
 			}
-			h3, h4, h5 {
+			h3 {
 				color:$red;
+			}
+			h5 {
+				color:$background;
 			}
 		}
 	}

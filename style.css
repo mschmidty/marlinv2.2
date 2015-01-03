@@ -666,10 +666,14 @@ Banner/Homepage
   text-decoration: none;
   font-style-type: none;
   color: #ff4136;
-  font-size: 3em;
+  font-size: 3.2em;
 }
-.home-banner .promotion h4, .home-banner .promotion h3, .home-banner .promotion h5 {
+.home-banner .promotion h4, .home-banner .promotion h5 {
   color: #333333;
+}
+.home-banner .promotion h3 {
+  color: #ff4136;
+  font-size: 3rem;
 }
 
 .pic-tag {
@@ -770,8 +774,11 @@ Banner/Homepage
   .home-banner .promotion p {
     color: white;
   }
-  .home-banner .promotion h3, .home-banner .promotion h4, .home-banner .promotion h5 {
+  .home-banner .promotion h3 {
     color: #ff4136;
+  }
+  .home-banner .promotion h5 {
+    color: white;
   }
 
   .cause-wrap .cause-image {
