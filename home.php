@@ -7,6 +7,7 @@ Template Name: Home Page
 <?php Starkers_Utilities::get_template_parts( array( 'parts/shared/html-header', 'parts/shared/header' ) ); ?>
 			<div class="home-banner">
         		<img src="<?php echo get_template_directory_uri(); ?>/images/banner-home1.jpg" alt="photo by Insolroll">
+                
                 <?php if ( have_posts() ) : while ( have_posts() ) : the_post();
                     $homeQuote = get_field('home_quote');
                     $homeQuoteAuthor = get_field('home_quote_author');
@@ -83,14 +84,6 @@ Template Name: Home Page
                     <p><?php echo $causeDescription ?></p>   
                 </div>
             <?php endwhile; endif; ?>
-            <div class="cause-wrap">
-                <h3 class="cause-title">2014 3rd Quarter Donation Goes To:</h3>
-                <a href="http://www.asadurango.org/">
-                    <div class="cause-image">
-                        <img src="<?php echo get_template_directory_uri(); ?>/images/adaptive_sports.jpg" alt="St. Jude Childrens Hospital Logo" />
-                    </div>
-                </a>    
-                <p>Adaptive Sports Association of Durango helps enhance the lives of people with disabilities. Through sports and recreational programs, ASA works with students to overcome their physical and cognitive challenges. You can find them online at <a href="http://www.asadurango.com">www.asadurango.com</a></p> 
-            </div>
+            
 
 <?php Starkers_Utilities::get_template_parts( array( 'parts/shared/footer','parts/shared/html-footer') ); ?>

@@ -479,6 +479,10 @@ p {
     margin: 0 !important;
   }
 }
+.grid > h3 {
+  clear: both;
+}
+
 /*=====================================================================
 
 Main content organization and grid
