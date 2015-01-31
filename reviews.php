@@ -10,7 +10,7 @@ Template Name: Review
 	<?php
  
     $custom_query = new WP_Query(array(
-        'posts_per_page' => 10,
+        'posts_per_page' => 25,
         'cat' => '4',
         'paged' => (get_query_var('paged')) ? get_query_var('paged') : 1
     ));
