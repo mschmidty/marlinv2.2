@@ -42,17 +42,17 @@ Template Name: Home Page
                     <div class="col col-1-3">
                         <img src=" <?php echo get_template_directory_uri(); ?>/images/house.png">
                         <h3>Free Estimates</h3>
-                        <p>Durango Shade Company offers at home consultation for motorized and manual window shades.  Our shades are great for both commercial and residential applications.</p>
+                        <p>We provide the best at-home shopping experience for window coverings and blinds in Durango Colorado. Our unmatched mobile showroom makes it easy for you to compare products, see samples and pick out the best window coverings for your home.</p>
                     </div>
                     <div class="col col-1-3">
                         <img src="<?php echo get_template_directory_uri(); ?>/images/colorado-flag.jpg">
                         <h3>Professional Service</h3>
-                        <p>We take great pride in offering only quality products and professional services. We work hard to make your dream a reality.</p>
+                        <p>We take great pride in offering only high quality products and professional service.  Most of our window coverings and blinds are backed by limited lifetime warranties and we stand behind our products 100%. You know you are only getting the best. </p>
                     </div>
                     <div class="col col-1-3">
                         <img src="<?php echo get_template_directory_uri(); ?>/images/for-cause.png">
                         <h3>For Your Cause</h3>
-                        <p>Your purchase with Durango Shade Company will support the community. We donate a portion of our profits to customers recommended Causes.</p>
+                        <p>When you buy window coverings and blinds from Durango Shade CO, you are helping build a better community! Our tagline says it all “Window Coverings For A Cause”.  We Donate 3% of our profits to customer recommend Causes.</p>
                     </div>
                 </div>
             </div>
