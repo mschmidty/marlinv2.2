@@ -6,9 +6,17 @@ Template Name: Review
 
 <?php Starkers_Utilities::get_template_parts( array( 'parts/shared/html-header', 'parts/shared/header' ) ); ?>
 <div class="content review"><div class="grid">
-<h2>Reviews</h2>
-	<?php
- 
+ <?php if ( have_posts() ) : while ( have_posts() ) : the_post();?>
+	
+	<h2><?php echo the_title(); ?></h2>
+
+					<?php 
+                    endwhile; else :// end while
+                    endif; // end if
+                    ?>
+    <?php wp_reset_postdata(); ?>
+
+ 	<?php
     $custom_query = new WP_Query(array(
         'posts_per_page' => 25,
         'cat' => '4',
