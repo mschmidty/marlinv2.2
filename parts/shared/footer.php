@@ -5,6 +5,7 @@
 	                <div class="address-footer">
 	                    <ul>
 	                            <li><h5>970-497-9001</h5></li>
+	                            <li><h5>2582 West 3rd Ave.<br> Durango, Colorado 81301</h5></li>
 	                            <li><h5>durangoshadecompany@gmail.com</h5></li>
 	                    </ul>
 	                    <a href="https://www.facebook.com/pages/Durango-Shade-Company/220148161468362"><img src="<?php echo get_template_directory_uri(); ?>/images/facebook-icon.png"></a>
