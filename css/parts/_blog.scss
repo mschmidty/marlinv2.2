@@ -1,0 +1,45 @@
+
+.blog-home-left {
+    float:left;
+    margin-right:0.75em;
+}
+.blog-home-right {
+  display:block;
+  overflow:hidden;
+  h3 {
+    margin-top: 0;
+    a {
+      text-decoration:none;
+      color:$blue;
+    }
+  }
+}
+.blog-module {
+  padding:1.2em 0;
+  border-bottom:3px solid $silver;
+  &:last-of-type {
+    border-bottom:none;
+  }
+  &:first-of-type {
+    padding-top:0;
+  }
+}
+@media screen and(max-width:61em){
+  .blog-module {
+    margin:0 1em;
+  }
+}
+@media screen and(max-width:450px){
+  .blog-home-left {
+    float:none;
+    margin:0 auto;
+    display:block;
+    width:150px;
+    height:auto;
+    margin:0 auto 1.2em auto;
+  }
+  .blog-home-right {
+    width:100%;
+
+  }
+}

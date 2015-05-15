@@ -64,7 +64,7 @@ Banner/Homepage
 }
 
 .home {
-	.col {
+	.services {
 		text-align:center;
 		p {
 			text-align:left;
@@ -74,23 +74,37 @@ Banner/Homepage
 			width:auto;
 		}
 	}
-	.col:last-child{
+	.services:last-child{
 		margin-right:0;
+	}
+}
+.home-misc-section {
+	.home-misc-head {
+		background-color:$grey;
+		color:$background;
+		padding: 0.5em 6em;
+	}
+	h3 {
+		text-align:center;
+		color:$red;
+		margin:0.7em 0;
+	}
+	img {
+		width:100%;
+		height: auto;
+		margin:0; 
+		padding:0;
+		display:block;
 	}
 }
 
 
-
 .cause-wrap {
-	background-color:$grey;
 	text-align:center;
 	padding:2em 6em;
-	positon:relative;
+	position:relative;
 	.cause-title {
 		font-size:2.5em;
-	}
-	p {
-		color:$background;
 	}
 	.cause-link {
 		color:$red;
@@ -103,14 +117,12 @@ Banner/Homepage
 		position:relative;
 		height:14rem;
 		width:14rem;
-		border-radius:50%;
 		margin:0 auto;
-		margin-bottom:1em;
+		
 		img {
 			position:relative;
 			width:100%;
 			margin:0 auto;
-			border-radius:50%;
 		}
 	}
 
@@ -130,6 +142,12 @@ Banner/Homepage
 			.col:last-child {
 				border:none;
 			}
+		}
+	}
+	.home-misc-section {
+		.home-misc-head  {
+			padding:0.5em 1em;
+			margin:0;
 		}
 	}
 	.cause-wrap {
@@ -172,3 +190,4 @@ Banner/Homepage
 		}
 	}
 }
+

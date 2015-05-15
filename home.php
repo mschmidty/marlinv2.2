@@ -15,6 +15,10 @@ Template Name: Home Page
                     $couponTime = get_field('coupon_time');
                     $couponAmount = get_field('coupon_amount');
                     $couponCategory = get_field('coupon_category');
+
+                    $miscTitleHome  = get_field('misc_title_home');
+                    $miscAddInfo = get_field('misc_add_info');
+                    $miscImage = get_field('misc_upload_image');
                 ?>
                 
                 <div class="promotion">
@@ -31,14 +35,12 @@ Template Name: Home Page
                     <h3><?php echo $couponAmount ?></h3>
                     <h5><?php echo $couponCategory ?></h5>
                     <?php 
-                    } 
-                    endwhile; else :// end while
-                    endif; // end if
-                    ?>
+                    } ?>
+
                 </div>
             </div>
             <div class="content-padding content content home">
-                <div class="grid">
+                <div class="grid services">
                     <div class="col col-1-3">
                         <img src=" <?php echo get_template_directory_uri(); ?>/images/house.png">
                         <h3>Free Estimates</h3>
@@ -56,6 +58,21 @@ Template Name: Home Page
                     </div>
                 </div>
             </div>
+            <section class="home-misc-section">
+                <div class="home-misc-head">
+                    <h3><?php echo $miscTitleHome ?></h3>
+                    <p><?php echo $miscAddInfo ?></p>
+                </div>
+                <?php 
+                    if(!empty($miscImage)):
+                    echo '<img src="' . $miscImage['url'] . '"alt="' .$miscImage['alt'] . '"/>';
+                    endif; 
+                ?>
+            </section>
+            <?php
+                endwhile; else :// end while
+                endif; // end if
+            ?>
             <?php wp_reset_postdata(); ?>
 
             <?php $cause_query = new WP_Query( array(
