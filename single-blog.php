@@ -3,9 +3,11 @@
 <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
 
 <div class="content blog-single">
-  <div class="grid">
+  <article class="grid">
     <h2>Blog</h2>
-    <h3><?php the_title(); ?></h3>
+    <div class="blog-single-article">
+      <h1><?php the_title(); ?></h1>
+    
       <time datetime="<?php the_time( 'Y-m-d' ); ?>" pubdate><?php the_date(); ?> <?php the_time(); ?></time> <?php comments_popup_link('Leave a Comment', '1 Comment', '% Comments'); ?>
       <?php the_content(); ?>     
 
@@ -15,7 +17,8 @@
       <?php the_author_meta( 'description' ); ?>
       <?php endif; ?>
       <?php endwhile; ?>
-  </div> <!--grid-->
+    </div>  <!--blog-single-article-->
+  </article> <!--grid-->
 </div> <!--content blog-->
 
 <?php Starkers_Utilities::get_template_parts( array( 'parts/shared/footer','parts/shared/html-footer' ) ); ?>

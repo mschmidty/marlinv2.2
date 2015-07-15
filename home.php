@@ -44,7 +44,7 @@ Template Name: Home Page
                     <div class="col col-1-3">
                         <img src=" <?php echo get_template_directory_uri(); ?>/images/house.png">
                         <h3>Free Estimates</h3>
-                        <p>We provide the best at-home shopping experience for window coverings and blinds in Durango Colorado. Our unmatched mobile showroom makes it easy for you to compare products, see samples and pick out the best window coverings for your home.</p>
+                        <p>We provide the best at-home shopping experience for window coverings and blinds in Durango and Erie Colorado. Our Free in-home consultations make it easy to see samples and pick out the best window coverings for your home.</p>
                     </div>
                     <div class="col col-1-3">
                         <img src="<?php echo get_template_directory_uri(); ?>/images/colorado-flag.jpg">

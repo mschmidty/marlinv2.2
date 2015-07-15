@@ -13,6 +13,7 @@ Tags: 			durangoshadecompany.com
  * 2. Prevent iOS text size adjust after orientation change, without disabling
  *    user zoom.
  */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,600);
 html {
   font-family: sans-serif;
   /* 1 */
@@ -449,9 +450,9 @@ h5 {
 }
 
 p {
-  font-size: 1.1em;
+  font-size: 1em;
   letter-spacing: 0.05em;
-  font-family: Georgia, Times, "Times New Roman", serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .page-wrap {
@@ -697,6 +698,9 @@ Banner/Homepage
 
 .home .services {
   text-align: center;
+}
+.home .services h3 {
+  text-align: left;
 }
 .home .services p {
   text-align: left;
@@ -1259,43 +1263,57 @@ footer .address-footer h5:first-of-type {
   margin-top: 0;
 }
 
-.blog-home-left {
+.blog-home-left, .contact-home-left {
   float: left;
   margin-right: 0.75em;
 }
+.blog-home-left img, .contact-home-left img {
+  max-width: 100%;
+}
 
-.blog-home-right {
+.contact-home-left img {
+  max-width: 250px;
+}
+
+.blog-home-right, .contact-home-right {
   display: block;
   overflow: hidden;
 }
-.blog-home-right h3 {
+.blog-home-right h3, .contact-home-right h3 {
   margin-top: 0;
 }
-.blog-home-right h3 a {
+.blog-home-right h3 a, .contact-home-right h3 a {
   text-decoration: none;
   color: #0074D9;
 }
 
-.blog-module {
+.blog-module, .contact-module {
   padding: 1.2em 0;
   border-bottom: 3px solid #dddddd;
 }
-.blog-module:last-of-type {
+.blog-module:last-of-type, .contact-module:last-of-type {
   border-bottom: none;
 }
-.blog-module:first-of-type {
+.blog-module:first-of-type, .contact-module:first-of-type {
   padding-top: 0;
 }
 
+.blog-single-article {
+  padding: 1em;
+}
+.blog-single-article img {
+  max-width: 100%;
+  height: auto;
+}
+
 @media screen and (max-width: 61em) {
-  .blog-module {
+  .blog-module, .contact-module {
     margin: 0 1em;
   }
 }
 @media screen and (max-width: 450px) {
   .blog-home-left {
     float: none;
-    margin: 0 auto;
     display: block;
     width: 150px;
     height: auto;
@@ -1303,6 +1321,21 @@ footer .address-footer h5:first-of-type {
   }
 
   .blog-home-right {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .contact-home-left {
+    float: none;
+    margin: 0 auto 1.2em auto;
+    display: block;
+    text-align: center;
+  }
+  .contact-home-left img {
+    margin: 0 auto;
+  }
+
+  .contact-home-right {
     width: 100%;
   }
 }

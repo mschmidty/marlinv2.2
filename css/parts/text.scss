@@ -2,6 +2,7 @@
 	font-family:custom-font;
 	src: url('font/bebasneue-r.otf'), url('font/bebasneue-r.otf');
 }
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,600);
 @font-face {
 	font-family: dsciconfonts;
 	src:url('font/dsciconfonts.eot?');
@@ -45,7 +46,7 @@ h5 {
 
 
 p {
-	font-size:1.1em;
+	font-size:1em;
 	letter-spacing:0.05em;
-	font-family:Georgia, Times, "Times New Roman", serif;
+	font-family: 'Open Sans', sans-serif;
 }

@@ -127,9 +127,14 @@
 
 	add_filter( 'use_default_gallery_style', '__return_false' );
 
-	// Thumbnails and Feature images
+	// Images
 
 	add_theme_support( 'post-thumbnails' );
+	add_image_size('thumb', 300, 200, array('center', 'center'));
+	add_image_size('large', 1500);
+	add_image_size('medium', 1000);
+	add_image_size('small', 700);
+	add_image_size('xsmall', 500);
 
 
 

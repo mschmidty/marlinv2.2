@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Contact
+Template Name: contact
 */
 ?>
 
@@ -8,21 +8,42 @@ Template Name: Contact
 <div class="content contact">
 	<div class="grid">
 	<h2>Contact</h2>
-		<div class="content-padding grid">
-			<div class="left-contact col col-1-2">
-				<h3>Old Fashioned Way</h3>
-				<div class="contact-info">
-					<h4>970-497-9001</h4>
-					<h4>Durangoshadecompany@gmail.com</h4>
-				</div>
+<?php
+    $contact = new WP_Query(array(
+        'post_type' => 'contact',
+        'posts_per_page' => 25,
+        'paged' => (get_query_var('paged')) ? get_query_var('paged') : 1
+    ));
+    
+    if ( $contact->have_posts() ) :
+	  while ( $contact->have_posts() ) : $contact->the_post();?>
+		<?php 
+			$image = get_field('image');
+			$size = 'thumb';
+			$thumb = $image['sizes'][$size];
+      $name = get_field('name');
+      $area = get_field('employee_area');
+      $phone = get_field('phone');
+      $email = get_field('email');
+
+		?>
+		<div class="contact-module">
+			<div class="contact-home-left">
+				<img src="<?php echo $thumb; ?>" alt="<?php $image['alt']; ?>">
 			</div>
-			<div class="right-contact col col-1-2">
-				<h3>Contact with Web Magic</h3>
-				<?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
-				<?php the_content(); ?>
-				<?php endwhile; ?>
+			<div class="contact-home-right">
+				<h3><?php echo $name; ?></h3>
+        <p><strong>Areas Served:</strong> <?php echo $area; ?></p>
+        <p><strong>Phone:</strong> <?php echo $phone; ?></p>
+        <p><strong>Email:</strong> <?php echo $email; ?></p>
+				<p> <?php echo the_content() ?></p>
 			</div>
-		</div>
-	</div>			
-</div>
+
+		</div> <!--module-->
+<?php 
+	endwhile;
+	endif;
+?>
+	</div> <!--grid-->
+</div> <!--content-->
 <?php Starkers_Utilities::get_template_parts( array( 'parts/shared/footer','parts/shared/html-footer') ); ?>
