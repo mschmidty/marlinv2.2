@@ -9,17 +9,20 @@ Template Name: contact
 	<div class="grid">
 	<h2>Contact</h2>
 <?php
+    $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
     $contact = new WP_Query(array(
         'post_type' => 'contact',
         'posts_per_page' => 25,
-        'paged' => (get_query_var('paged')) ? get_query_var('paged') : 1
-    ));
+        'paged' => $paged
+        ));
+        
+    
     
     if ( $contact->have_posts() ) :
 	  while ( $contact->have_posts() ) : $contact->the_post();?>
 		<?php 
 			$image = get_field('image');
-			$size = 'thumb';
+			$size = 'thumb-img';
 			$thumb = $image['sizes'][ $size ];
       $name = get_field('name');
       $area = get_field('employee_area');
