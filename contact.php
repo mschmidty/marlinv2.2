@@ -20,7 +20,7 @@ Template Name: contact
 		<?php 
 			$image = get_field('image');
 			$size = 'thumb';
-			$thumb = $image['sizes'][$size];
+			$thumb = $image['sizes'][ $size ];
       $name = get_field('name');
       $area = get_field('employee_area');
       $phone = get_field('phone');
