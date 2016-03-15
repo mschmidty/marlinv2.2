@@ -9,7 +9,7 @@
               <div class="col col-1-2">
                   <ul>
                       <li><h5>durangoshadecompany@gmail.com</h5></li>
-                      <li><h5>2582 West 3rd Ave.<br> Durango, Colorado 81301</h5></li>
+                      <li><h5>3045 E 2nd Ave.<br> Durango, Colorado 81301</h5></li>
                           
                   </ul>
               </div>
